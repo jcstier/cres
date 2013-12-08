@@ -1,0 +1,9 @@
+/.cache
+/extsrc
+/console.devmode.log
+.idea
+.idea_modules
+.project
+.settings
+
+
