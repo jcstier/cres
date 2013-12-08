@@ -1,10 +1,10 @@
-name := "Lift v2.6 Template Application with Bootstrap v3"
+name := "cres"
 
-version := "0.0.3"
+version := "0.0.1"
 
-organization := "net.liftweb"
+organization := "com.mummyhead"
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.10.3"
 
 resolvers ++= Seq("snapshots"     at "http://oss.sonatype.org/content/repositories/snapshots",
                   "staging"       at "http://oss.sonatype.org/content/repositories/staging",
