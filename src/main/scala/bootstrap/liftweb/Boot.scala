@@ -90,9 +90,11 @@ class Boot {
     val userMenu   = User.AddUserMenusHere
     val static     = Menu(Loc("Static", Link(List("static"), true, "/static/index"), S.loc("StaticContent" , scala.xml.Text("Static Content")),LocGroup("lg2","topRight")))
     val twbs       = Menu(Loc("Bootstrap3", Link(List("bootstrap301"), true, "/bootstrap301/index"), S.loc("Bootstrap3" , scala.xml.Text("Bootstrap3")),LocGroup("lg2")))
+    val mylinnk    = Menu(Loc("MyLink",Link(List("mylink"),true,"/static/index"),S.loc("MyLink",scala.xml.Text("My Link")),LocGroup("lg2","topright")))
      
     def sitemap = SiteMap(
         home          >> LocGroup("lg1"),
+        mylinnk,
         static,
         twbs,
         ddLabel1      >> LocGroup("topRight") >> PlaceHolder submenus (
